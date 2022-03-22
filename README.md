@@ -11,15 +11,12 @@ Xcode's Swift Package Manager integration (Xcode 12 and higher):
 ```
 https://github.com/inmotionsoftware/swift-log-analytics-firebase.git
 ```
-And use 0.0.1 as base Branch.
-
-NOTE: This package has a dependency on `Firebase 6.34-spm-beta`, thus it won't support standard repository versioning until general availability of the Firebase SPM distribution.
 
 Package.swift:
 ```
 .package(name: "LoggingAnalyticsFirebase",
          url: "https://github.com/inmotionsoftware/swift-log-analytics-firebase.git",
-         .branch("0.0.1"))
+         .branch("0.0.2"))
 ```
 
 #### Setup Firebase Analytics
